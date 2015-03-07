@@ -579,7 +579,7 @@ minetest.register_craft({
     output = 'tbm:pick_carbon',
     recipe = {
         {'default:coal_lump', 'default:diamond', 'default:coal_lump'},
-        {'', 'default:stick', ''},
-        {'', 'default:stick', ''},
+        {'', 'group:stick', ''},
+        {'', 'group:stick', ''},
     }
 })
