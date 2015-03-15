@@ -488,7 +488,7 @@ minetest.register_craft({
 	output = 'tbm:drill',
 	recipe = {
 		{'', 'default:diamond', ''},
-		{'default:diamond', 'default:stick', 'default:diamond'},
+		{'default:diamond', 'group:stick', 'default:diamond'},
 		{'', 'default:diamond', ''},
 	}
 })
